@@ -20,7 +20,9 @@ class Cafe{
 public class Main {
     public static void main(String[] args) {
         Cafe cafe1 = new Cafe("Kopi Kenangan", "Indramayu");
+        cafe1.buka();
         Cafe cafe2 = new Cafe("Tomorro", "Imkot");
+        cafe2.buka();
         // cafe1.Nama = "Kopi Kenangan";
         // cafe1.Alamat = "Indramayu";
         // cafe2.Nama = "kopte";
