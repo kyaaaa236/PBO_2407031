@@ -11,13 +11,16 @@ class Cafe{
         System.out.println("nama cafenya adalah " + this.Nama);
         System.out.println("alamatnya ada di daerah: " + this.Alamat);
     }
+    void buka(){
+        System.out.println(this.Nama+"cafe buka jam 15.00");
+    }
 }
 
 //kelas main adalah untuk menampilkan program yang akan kita buat
 public class Main {
     public static void main(String[] args) {
-        Cafe cafe1 = new Cafe("janjijiwa", "indramayu");
-        Cafe cafe2 = new Cafe("kopte", "imkot");
+        Cafe cafe1 = new Cafe("Kopi Kenangan", "Indramayu");
+        Cafe cafe2 = new Cafe("Tomorro", "Imkot");
         // cafe1.Nama = "Kopi Kenangan";
         // cafe1.Alamat = "Indramayu";
         // cafe2.Nama = "kopte";
